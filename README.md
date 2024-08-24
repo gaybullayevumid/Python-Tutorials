@@ -1,1 +1,1 @@
-# Python-Tutorials
+# PYTHON DASTURLASH ASOSLARI
