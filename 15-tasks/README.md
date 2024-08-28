@@ -1,5 +1,6 @@
 # TASKS
 
+## if else
 1. Maksimal sonni topish
     - Foydalanuvchidan 3ta son kiriting va shu 3ta sonning kattasini aniqlang:
         - Masalan, agar sonlar `5`, `10` va `3` bo'lsa, natija `Eng katta son: 10` deb chiqishi kerak.
