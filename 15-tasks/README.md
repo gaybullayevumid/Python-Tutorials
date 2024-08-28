@@ -28,3 +28,9 @@
         - Aks holda, `Son 10 ga bo'linmaydi` deb chiqaring.
 
 ## for loop
+
+1. Juft sonlarni chiqarish
+    - Berilgan ro'yxatdagi faqat `juft` sonlarni ekranga chiqarish uchun `for loop`dan foydalaning.
+```python
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
