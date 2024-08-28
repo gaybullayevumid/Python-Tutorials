@@ -26,3 +26,5 @@
     - Foydalanuvchidan `son` kiriting va `son` `10` ga bo'linishini tekshiring
         - Agar son `10` ga bo'linsa, `Son 10 ga bo'linadi` deb chiqaring.
         - Aks holda, `Son 10 ga bo'linmaydi` deb chiqaring.
+
+## for loop
