@@ -43,3 +43,13 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 8
 10
 ```
+
+2. Ro'yxatdagi sonlarning kvadratlarini hisoblash
+    - Berilgan ro'yxatdagi sonlarning `kvadratlarini` hisoblab, `yangi ro'yxatga` joylashtiring.
+```python
+numbers = [1, 2, 3, 4, 5]
+```
+**Javob:**
+```python
+Kvadratlar: [1, 4, 9, 16, 25]
+```
