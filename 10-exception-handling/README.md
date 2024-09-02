@@ -67,3 +67,8 @@ Yuqoridagi misolda, dastur yakunida har doim `finally` bloki ichidagi `Dastur ya
     - Foydalanuvchi `2` ta son kiritadi. Siz bu sonlarni `bir-biriga` bo'lishingiz kerak, lekin `0` ga bo'lishdan ehtiyot bo'lish kerak.
 
 **Natija:** Agar foydalanuvchi `0` kiritsa, `Xatolik: Nolga bo'lish mumkin emas` degan xabar chiqadi. Agar foydalanuvchi son o'rniga boshqa belgilar kiritsa, `Xatolik: Iltimos, faqat son kiriting` degan xabar chiqadi.
+
+2. Faylni ochish va o'qish
+    - Berilgan fayl nomini ochishga harakat qiling. Agar fayl mavjud bo'lmasa, tegishli xatolik xabari chiqsin.
+
+**Natija:** Agar foydalanuvchi mavjud bo'lmagan fayl nomini kiritsa, `Xatolik: Fayl topilmadi` degan xabar chiqadi.
