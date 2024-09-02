@@ -72,3 +72,13 @@ Yuqoridagi misolda, dastur yakunida har doim `finally` bloki ichidagi `Dastur ya
     - Berilgan fayl nomini ochishga harakat qiling. Agar fayl mavjud bo'lmasa, tegishli xatolik xabari chiqsin.
 
 **Natija:** Agar foydalanuvchi mavjud bo'lmagan fayl nomini kiritsa, `Xatolik: Fayl topilmadi` degan xabar chiqadi.
+
+3. Raqamli qiymatni aylantirish
+    - Foydalanuvchi kiritgan satrni butun son yoki haqiqiy songa aylantirishga harakat qiling.
+
+**Natija:** Agar foydalanuvchi son emas, balki boshqa harflar yoki belgilar kiritsa, `Xatolik: Satrni son ko'rinishiga o'tkazib bo'lmadi` degan xabar chiqadi.
+
+4. Hisoblash operatsiyasi
+    - Foydalanuvchi ikkita son va bir operator (`+, -, *, /`) kiritsin. Hisoblashni amalga oshiring va natijani ko'rsating.
+
+**Natija:** Agar foydalanuvchi noto'g'ri operator kiritsa yoki nolga bo'lishga harakat qilsa, tegishli xatolik xabarlari chiqadi.
