@@ -61,3 +61,9 @@ finally:
     print("Dastur yakunlandi.")
 ```
 Yuqoridagi misolda, dastur yakunida har doim `finally` bloki ichidagi `Dastur yakunlandi.` xabari chop etiladi.
+
+## AMALIYOT
+1. Nolga bo'lishni tekshirish
+    - Foydalanuvchi `2` ta son kiritadi. Siz bu sonlarni `bir-biriga` bo'lishingiz kerak, lekin `0` ga bo'lishdan ehtiyot bo'lish kerak.
+
+**Natija:** Agar foydalanuvchi `0` kiritsa, `Xatolik: Nolga bo'lish mumkin emas` degan xabar chiqadi. Agar foydalanuvchi son o'rniga boshqa belgilar kiritsa, `Xatolik: Iltimos, faqat son kiriting` degan xabar chiqadi.
