@@ -421,9 +421,9 @@ n = 15
 ```
 3. O‘zgaruvchi turlarini o‘zgartirish
     - Quyidagi ko‘rsatmalarga asosan o‘zgaruvchi turlarini o‘zgartiring:
-        - `s` degan o'zgaruvchi yarating, unga `123` qiymat bering va butun songa o'zgartiring.
-        - `r` degan o'zgaruvchi yarating, unga `45.67` qiymat bering va float turiga o'zgartiring
-        - `q` degan o'zgaruvchi yarating, unga `78.9` qiymat bering va float turidan butun songa o'zgartiring.
+        - `s` degan o'zgaruvchi yarating, unga `"123"` qiymat bering va butun songa o'zgartiring.
+        - `r` degan o'zgaruvchi yarating, unga `"45.67"` qiymat bering va float turiga o'zgartiring
+        - `q` degan o'zgaruvchi yarating, unga `"78.9"` qiymat bering va float turidan butun songa o'zgartiring.
         
 **Natija:** <br>
 ```python
