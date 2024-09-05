@@ -400,6 +400,7 @@ print("Aylana uzunligi ", pi*diametr, " ga teng.")
         - `a` degan o'zgaruvchi yarating va unga `8` qiymat bering
         - `b` degan o'zgaruvchi yarating va unga `3` qiymat bering
         - Ularning `yig'indisi`, `ayirmasi`, `ko‘paytmasi` va `bo‘linmasi`ni hisoblang.
+        
 **Natija:** <br>
 ```python
 Qo‘shish: 11
