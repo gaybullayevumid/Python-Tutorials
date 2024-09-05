@@ -432,4 +432,12 @@ r = 45.67
 q = 78
 ```
 
-. Foydalanuvchidan ikkita son kiritishini so'rang va ularni qo'shing.
+4. O‘zgaruvchi uzunligini aniqlash
+    - String o‘zgaruvchi yaratib, uning uzunligini aniqlang:
+    - `matn` degan o'zgaruvchi yarating va unga `"Hello World!"` qiymat bering.
+    - Ushbu matnning `uzunligini` aniqlang va terminalga chiqaring.
+
+**Natija:** <br>
+```python
+Matn uzunligi: 12
+```
