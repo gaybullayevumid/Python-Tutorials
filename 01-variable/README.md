@@ -419,5 +419,17 @@ Bo‘lish: 2.6666666666666665
 m = 25
 n = 15
 ```
+3. O‘zgaruvchi turlarini o‘zgartirish
+    - Quyidagi ko‘rsatmalarga asosan o‘zgaruvchi turlarini o‘zgartiring:
+        - `s` degan o'zgaruvchi yarating, unga `123` qiymat bering va butun songa o'zgartiring.
+        - `r` degan o'zgaruvchi yarating, unga `45.67` qiymat bering va float turiga o'zgartiring
+        - `q` degan o'zgaruvchi yarating, unga `78.9` qiymat bering va float turidan butun songa o'zgartiring.
+        
+**Natija:** <br>
+```python
+s = 123
+r = 45.67
+q = 78
+```
 
 . Foydalanuvchidan ikkita son kiritishini so'rang va ularni qo'shing.
