@@ -395,4 +395,9 @@ print("Aylana uzunligi ", pi*diametr, " ga teng.")
     - **memoryview:** Mavjud ikkilik ma'lumotlarni ko'rish va manipulyatsiya qilish imkonini beradi.
 
 ## AMALIYOT
-1. Foydalanuvchidan ikkita son kiritishini so'rang va ularni qo'shing.
+1. O‘zgaruvchilar bilan arifmetik amallar
+    - Quyidagi arifmetik amallarni bajarish uchun o‘zgaruvchilarni yarating:
+        - `a` degan o'zgaruvchi yarating va unga `8` qiymat bering
+        - `b` degan o'zgaruvchi yarating va unga `3` qiymat bering
+        - Ularning `yig'indisi`, `ayirmasi`, `ko‘paytmasi` va `bo‘linmasi`ni hisoblang.
+. Foydalanuvchidan ikkita son kiritishini so'rang va ularni qo'shing.
