@@ -434,7 +434,7 @@ q = 78
 
 4. O‘zgaruvchi uzunligini aniqlash
     - String o‘zgaruvchi yaratib, uning uzunligini aniqlang:
-    - `matn` degan o'zgaruvchi yarating va unga `"Hello World!"` qiymat bering.
+    - `matn` degan o'zgaruvchi yarating va unga `"Hello World!"` qiymatini bering.
     - Ushbu matnning `uzunligini` aniqlang va terminalga chiqaring.
 
 **Natija:** <br>
