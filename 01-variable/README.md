@@ -400,13 +400,24 @@ print("Aylana uzunligi ", pi*diametr, " ga teng.")
         - `a` degan o'zgaruvchi yarating va unga `8` qiymat bering
         - `b` degan o'zgaruvchi yarating va unga `3` qiymat bering
         - Ularning `yig'indisi`, `ayirmasi`, `ko‘paytmasi` va `bo‘linmasi`ni hisoblang.
-        
+
 **Natija:** <br>
 ```python
 Qo‘shish: 11
 Ayirish: 5
 Ko‘paytirish: 24
 Bo‘lish: 2.6666666666666665
+```
+
+2. O‘zgaruvchi qiymatini almashtirish
+    - `m` degan o'zgaruvchi yarating va unga `15` qiymat bering
+    - `n` degan o'zgaruvchi yarating va unga `25` qiymat bering
+    - Ularning qiymatlarini almashtiring, ya’ni `m` ning qiymatini `n` ga, `n` ning qiymatini esa `m` ga o‘tkazing.
+
+**Natija:** <br>
+```python
+m = 25
+n = 15
 ```
 
 . Foydalanuvchidan ikkita son kiritishini so'rang va ularni qo'shing.
