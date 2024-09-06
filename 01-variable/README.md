@@ -441,3 +441,13 @@ q = 78
 ```python
 Matn uzunligi: 12
 ```
+
+5. Topshiriq: Ikki raqamni qo'shish
+    - `raqam1` degan o'zgaruvchi yarating va unga `"5"` qiymat bering.
+    - `raqam2` degan o'zgaruvchi yarating va unga `"5.5"` qiymat bering.
+    - Berilgan ikkita raqamni (`int` yoki `float`) qo'shing va natijani terminalga chiqarib bering.
+
+**Natija:** <br>
+```python
+Natija: 9.5
+```
