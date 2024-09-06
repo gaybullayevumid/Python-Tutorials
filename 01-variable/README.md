@@ -451,4 +451,3 @@ Matn uzunligi: 12
 ```python
 Natija: 9.5
 ```
-6. 
