@@ -72,8 +72,13 @@ extend() natijasi: [1, 2, 3, 4, 5]
 - **Belgilangan joyga element qo'shish:** `.insert()`
 
 ```python
+my_list = [1, 2, 3]
 my_list.insert(2, 99)  # 2-pozitsiyaga 99 ni qo'shish
 print(my_list)
+```
+**Natija:**
+```shell
+[1, 2, 99, 3]
 ```
 
 - `+=` **operatori yordamida ro'yxatga qo'shish**
