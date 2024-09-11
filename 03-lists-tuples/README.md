@@ -76,6 +76,18 @@ my_list.insert(2, 99)  # 2-pozitsiyaga 99 ni qo'shish
 print(my_list)
 ```
 
+- `+=` **operatori yordamida ro'yxatga qo'shish**
+    - Siz ro'yxatga boshqa ro'yxatni qo'shish uchun `+=` operatoridan ham foydalanishingiz mumkin:
+```python
+my_list = [1, 2, 3]
+my_list += [4, 5]
+print(my_list)
+```
+**Natija:**
+```shell
+[1, 2, 3, 4, 5]
+```
+
 ### E'LEMENTLARNI O'CHIRISH
 
 - **Belgilangan elementni o'chirish:** `.remove()`
