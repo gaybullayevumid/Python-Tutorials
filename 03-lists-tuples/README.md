@@ -44,6 +44,12 @@ print(len(my_list))
 my_list.append(6)
 print(my_list)
 ```
+- Oddiy `.append()` faqat bitta element qo'shadi, lekin agar siz list yoki boshqa takrorlanadigan obyekt qo'shsangiz, uni elementlar emas, balki ro'yxat sifatida qo'shadi.
+```python
+my_list = [1, 2, 3]
+my_list.append([4, 5])  # List ichiga yana bir list qo'shish
+print(my_list)
+```
 
 - **Belgilangan joyga element qo'shish:** `.insert()`
 
