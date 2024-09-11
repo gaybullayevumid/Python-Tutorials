@@ -41,9 +41,15 @@ print(len(my_list))
 - **Oxiriga element qo'shish:** `.append()`
 
 ```python
+my_list = [1, 2, 3]
 my_list.append(6)
 print(my_list)
 ```
+**Natija:** <br>
+```shell
+[1, 2, 3, 6]
+```
+
 - Oddiy `.append()` faqat bitta element qo'shadi, lekin agar siz list yoki boshqa takrorlanadigan obyekt qo'shsangiz, u element emas, balki ro'yxat sifatida qo'shiladi.
 ```python
 my_list = [1, 2, 3]
