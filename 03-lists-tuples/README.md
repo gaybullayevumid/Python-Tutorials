@@ -60,7 +60,7 @@ print(my_list)
 ```python
 my_list = [1, 2, 3]
 my_list.extend([4, 5])
-print("extend() natijasi:", my_list)
+print("extend() natijasi:", my_list) # Bu ro'yxatning elementlarini alohida qo'shadi
 ```
 
 **Natija:** <br>
