@@ -63,6 +63,8 @@ my_list.extend([4, 5])
 print("extend() natijasi:", my_list)
 ```
 
+**Natija:** <br>
+
 ```shell
 extend() natijasi: [1, 2, 3, 4, 5]
 ```
