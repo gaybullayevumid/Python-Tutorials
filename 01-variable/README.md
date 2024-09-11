@@ -308,11 +308,11 @@ Python dasturlash tilida 7ta ma'lumot turi bor, ular quyidagilar:
 > Floatni Integerga o'zgartirishda kasr qismini olib tashlaydi.
 
 ```python
-    x = 3.14
-    y = int(x)  # 3
+x = 3.14
+y = int(x)  # 3
 
-    print(type(y))  # <class 'int'>
-    print(y)        # 3
+print(type(y))  # <class 'int'>
+print(y)        # 3
 ```
 
 #### Stringdan Floatga o'zgartirish
