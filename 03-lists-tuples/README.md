@@ -102,10 +102,15 @@ print(my_list)
 ### E'LEMENTLARNI O'CHIRISH
 
 - **Belgilangan elementni o'chirish:** `.remove()`
+    - Bu usul ro'yxatdan kiritilgan qiymatga teng bo'lgan birinchi uchragan elementni o'chiradi.
 
 ```python
 my_list.remove(99)
 print(my_list)
+```
+**Natija:** <br>
+```shell
+[1, 2, 4, 3]
 ```
 
 - **Indeks bo'yicha elementni o'chirish:** `.pop(index)`
