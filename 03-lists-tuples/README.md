@@ -55,6 +55,18 @@ print(my_list)
 [1, 2, 3, [4, 5]]
 ```
 
+- **Bir nechta element qo'shish** `.extend()`
+
+```python
+my_list = [1, 2, 3]
+my_list.extend([4, 5])
+print("extend() natijasi:", my_list)
+```
+
+```shell
+extend() natijasi: [1, 2, 3, 4, 5]
+```
+
 - **Belgilangan joyga element qo'shish:** `.insert()`
 
 ```python
