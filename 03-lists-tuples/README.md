@@ -50,6 +50,10 @@ my_list = [1, 2, 3]
 my_list.append([4, 5])  # List ichiga yana bir list qo'shish
 print(my_list)
 ```
+**Natija:** <br>
+```shell
+[1, 2, 3, [4, 5]]
+```
 
 - **Belgilangan joyga element qo'shish:** `.insert()`
 
