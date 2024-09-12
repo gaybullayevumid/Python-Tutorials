@@ -105,25 +105,26 @@ print(my_list)
     - Bu usul ro'yxatdan kiritilgan qiymatga teng bo'lgan birinchi uchragan elementni o'chiradi.
 
 ```python
-my_list.remove(99)
+my_list = [1, 2, 3, 4, 3, 5]
+my_list.remove(3)  # Ro'yxatdan birinchi 3 ni o'chiradi
 print(my_list)
 ```
 **Natija:** <br>
 ```shell
-[1, 2, 4, 3]
-```
-
-- **Indeks bo'yicha elementni o'chirish:** `.pop(index)`
-
-```python
-my_list.pop(0)  # Birinchi elementni o'chirish
-print(my_list)
+[1, 2, 4, 3, 5]
 ```
 
 - **Oxirgi elementni o'chirish:** `.pop()`
 
 ```python
 my_list.pop()
+print(my_list)
+```
+
+- **Indeks bo'yicha elementni o'chirish:** `.pop(index)`
+
+```python
+my_list.pop(0)  # Birinchi elementni o'chirish
 print(my_list)
 ```
 
