@@ -427,7 +427,7 @@ print(toys)
 - Ro'yxatni teskari tartibda qaytaring.
 - Ikki ro'yxatni birlashtirib, natijani saralang.
 - O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni terminalga chiqaring.
-- `.sorted()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring.
+- `.sort()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring.
 - `sorted()` yordamida ro'yxatni teskari tartibda konsolga chiqaring.
 - Ro'yxatdagi sonlar yig'indisini hisoblang va konsolga chiqaring.
 - Bir nechta elementlardan iborat tuple yarating va uni terminalda chiqaring.
