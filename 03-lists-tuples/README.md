@@ -449,3 +449,11 @@ print(toys)
 6. Elementning mavjudligini tekshirish.
     - Quyidagi ro'yxatni yarating: `['mashina', 'avtobus', 'velosiped', 'poyezd']`
     - Ro'yxatda `'avtobus'` bor-yo'qligini tekshiring va natijani terminalga chiqaring `(True/False)`.
+
+7. Ro'yxatni saralash.
+    - Quyidagi sonlardan iborat ro'yxat yarating: `[3, 1, 4, 2, 5]`.
+    - Ro'yxatni `o'sish` tartibida saralang va natijani terminalga chiqaring.
+
+8. Ro'yxatdagi elementlarni teskari tartibda Terminalga chiqarish.
+    - Quyidagi ro'yxatni yarating: `[10, 20, 30, 40, 50]`.
+    - Ro'yxatni teskari tartibda terminalga chiqaring (`reverse`).
