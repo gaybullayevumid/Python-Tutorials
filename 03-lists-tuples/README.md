@@ -469,3 +469,7 @@ print(toys)
 11. Minimal va Maksimal qiymatni topish.
     - Quyidagi ro'yxatni yarating: `[25, 17, 9, 50, 33]`.
     - Ro'yxatdagi `eng kichik` va `eng katta` qiymatni toping va terminalga chiqaring.
+
+12. Ro'yxatni Nusxalash.
+    - Quyidagi ro'yxatni yarating: `[100, 200, 300, 400, 500]`.
+    - Ushbu ro'yxatdan `nusxa` ko'chiring va `yangi` ro'yxatni qaytaring.
