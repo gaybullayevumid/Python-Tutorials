@@ -423,6 +423,7 @@ print(toys)
 ```
 
 ## AMALIYOT
-- Ro'yhat yaratish va elementga murojat qilish
+1. Ro'yhat yaratish va elementga murojat qilish
     - Quyidagi elementlarga ega bo'lgan ro'yxatni yarating: `'olma'`, `'banan'`, `'gilos'`, `'xurmo'`, `'anjir'`.
     - Ro'yxatning ikkinchi va to'rtinchi elementlarini oling va ularni terminalga chiqaring.
+
