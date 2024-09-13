@@ -436,4 +436,6 @@ print(toys)
     - Ro'yxatga `'dog'`, `'cat'` va `'chicken'` elementlarini qo'shing.
     - Ro'yxatdan `'cat'` ni `o'chiring` va natijani terminalga chiqaring.
 
-4. 
+4. Ro'yxat uzunligini topish.
+    - Quyidagi elementlarga ega ro'yxat yarating: `'red'`, `'green'`, `'blue'`, `'yellow'`, `'purple'`.
+    - Ro'yxatning `uzunligini` toping va terminalga chiqaring.
