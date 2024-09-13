@@ -423,7 +423,17 @@ print(toys)
 ```
 
 ## AMALIYOT
-1. Ro'yhat yaratish va elementga murojat qilish
+1. Ro'yhat yaratish va elementga murojat qilish.
     - Quyidagi elementlarga ega bo'lgan ro'yxatni yarating: `'olma'`, `'banan'`, `'gilos'`, `'xurmo'`, `'anjir'`.
-    - Ro'yxatning ikkinchi va to'rtinchi elementlarini oling va ularni terminalga chiqaring.
+    - Ro'yxatning `ikkinchi` va `to'rtinchi` elementlarini oling va ularni terminalga chiqaring.
 
+2. Ro'yxatni o'zgartirish.
+    - `1` dan `5` gacha bo'lgan sonlar ro'yxatini yarating.
+    - Ro'yxatdagi `uchinchi` elementni `10` ga almashtiring va yangilangan ro'yxatni terminalga chiqaring.
+
+3. Element qo'shish va o'chirish.
+    - Bo'sh ro'yxat yarating.
+    - Ro'yxatga `'dog'`, `'cat'` va `'chicken'` elementlarini qo'shing.
+    - Ro'yxatdan `'cat'` ni `o'chiring` va natijani terminalga chiqaring.
+
+4. 
