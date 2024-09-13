@@ -439,3 +439,13 @@ print(toys)
 4. Ro'yxat uzunligini topish.
     - Quyidagi elementlarga ega ro'yxat yarating: `'red'`, `'green'`, `'blue'`, `'yellow'`, `'purple'`.
     - Ro'yxatning `uzunligini` toping va terminalga chiqaring.
+
+5. Ro'yxatlarni birlashtirish.
+    - Quyidagi ikkita ro'yxatni yarating:
+        - Ro'yxat1: `['a', 'b', 'c']`
+        - Ro'yxat2: `['d', 'e', 'f']`
+    - Ikkala ro'yxatni birlashtiring va natijani terminalga chiqaring.
+
+6. Elementning mavjudligini tekshirish.
+    - Quyidagi ro'yxatni yarating: `['mashina', 'avtobus', 'velosiped', 'poyezd']`
+    - Ro'yxatda `'avtobus'` bor-yo'qligini tekshiring va natijani terminalga chiqaring `(True/False)`.
