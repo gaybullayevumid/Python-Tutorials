@@ -465,3 +465,7 @@ print(toys)
 10. Ro'yxat elementlarini ko'paytirish.
     - Ro'yxat yarating: `[1, 2, 3]`.
     - Ro'yxat elementlarini `4` marta ko'paytiring va natijani terminalga chiqaring.
+
+11. Minimal va Maksimal qiymatni topish.
+    - Quyidagi ro'yxatni yarating: `[25, 17, 9, 50, 33]`.
+    - Ro'yxatdagi `eng kichik` va `eng katta` qiymatni toping va terminalga chiqaring.
