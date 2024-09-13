@@ -423,15 +423,6 @@ print(toys)
 ```
 
 ## AMALIYOT
-- Ro'yxatdagi eng kichik va eng katta qiymatlarni toping.
-- Ro'yxatdagi elementlarning o'rtacha qiymatini hisoblang.
-- Ro'yxatni teskari tartibda qaytaring.
-- Ikki ro'yxatni birlashtirib, natijani saralang.
-- O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni terminalga chiqaring.
-- `.sort()` funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring.
-- `sorted()` yordamida ro'yxatni teskari tartibda konsolga chiqaring.
-- Ro'yxatdagi sonlar yig'indisini hisoblang va konsolga chiqaring.
-- Bir nechta elementlardan iborat tuple yarating va uni terminalda chiqaring.
-- Tuple ichidagi ma'lum elementlarga murojaat qiling va ularni terminalga chiqaring.
-- Tuple uzunligini aniqlang va terminalga chiqaring.
-- sort() metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
+- Ro'yhat yaratish va elementga murojat qilish
+    - Quyidagi elementlarga ega bo'lgan ro'yxatni yarating: `'olma'`, `'banan'`, `'gilos'`, `'xurmo'`, `'anjir'`.
+    - Ro'yxatning ikkinchi va to'rtinchi elementlarini oling va ularni terminalga chiqaring.
