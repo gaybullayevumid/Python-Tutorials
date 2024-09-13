@@ -461,3 +461,7 @@ print(toys)
 9. Ro'yxatni tozalash.
     - Quyidagi ro'yxatni yarating: `['kitob', 'qalam', 'daftar', 'sumka']`.
     - Ro'yxatni tozalang (`hamma elementlarni o'chiring`) va bo'sh ro'yxatni terminalga chiqaring.
+
+10. Ro'yxat elementlarini ko'paytirish.
+    - Ro'yxat yarating: `[1, 2, 3]`.
+    - Ro'yxat elementlarini `4` marta ko'paytiring va natijani terminalga chiqaring.
