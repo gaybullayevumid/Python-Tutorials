@@ -456,4 +456,4 @@ print(toys)
 
 8. Ro'yxatdagi elementlarni teskari tartibda Terminalga chiqarish.
     - Quyidagi ro'yxatni yarating: `[10, 20, 30, 40, 50]`.
-    - Ro'yxatni teskari tartibda terminalga chiqaring (`reverse`).
+    - Ro'yxatni `teskari` tartibda terminalga chiqaring (`reverse`).
