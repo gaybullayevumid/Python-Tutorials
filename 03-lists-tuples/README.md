@@ -459,6 +459,18 @@ print(fruit3)  # 'cherry'
 nested_tuple = (1, 2, (3, 4), 5)
 print(nested_tuple[2])  # (3, 4)
 ```
+### TUPLE BILAN ISHLASHDA FOYDALI FUNKSIYALAR
+1. `.count():` Tuple ichida biror qiymat necha marta takrorlanganini aniqlaydi.
+```python
+my_tuple = (1, 2, 2, 3)
+print(my_tuple.count(2))  # 2
+```
+
+2. `.index():` Tuple ichida berilgan qiymatning indeksini topadi.
+```python
+my_tuple = (1, 2, 3)
+print(my_tuple.index(2))  # 1
+```
 
 > [!NOTE]
 > Agar Tuple ga o'zgartirish talab qilinsa, yagona yo'li o'zgarmas ro'yxatni `list()` funksiyasi yordamida `List` (oddiy ro'yxat) ko'rinishiga keltirib olish, o'zgarishlarni bajarsih va qaytarib `tuple()` funktsiyasi yordamida o'zgarmas ro'yxatga o'tkazish mumkin:
