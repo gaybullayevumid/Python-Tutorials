@@ -436,6 +436,13 @@ my_tuple = (1, 2, 3, 4, 5)
 print(len(my_tuple))  # 5
 ```
 
+### TUPLEDA `in` OPERATORI
+- Biror qiymat tupleda bor yoki yo‘qligini `in` operatori yordamida tekshirish mumkin:
+```python
+my_tuple = ("apple", "banana", "cherry")
+print("banana" in my_tuple)  # True
+```
+
 > [!NOTE]
 > Agar Tuple ga o'zgartirish talab qilinsa, yagona yo'li o'zgarmas ro'yxatni `list()` funksiyasi yordamida `List` (oddiy ro'yxat) ko'rinishiga keltirib olish, o'zgarishlarni bajarsih va qaytarib `tuple()` funktsiyasi yordamida o'zgarmas ro'yxatga o'tkazish mumkin:
 
