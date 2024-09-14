@@ -413,12 +413,24 @@ print(my_tuple[-1]) # 50 (oxirgi element)
 > Tuple o'zgarmas bo'lganligi sababli, uni `o'zgartirib bo'lmaydi`. Lekin uni boshqa tuplelar bilan `birlashtirish` yoki `takrorlash` mumkin.
 
 1. Tuplelarni birlashtirish:
+    - Tuple'lar o'zgarmas (`immutable`) ma'lumot turi bo'lganligi uchun birlashtirish jarayonida asl tuple'lar o'zgarmaydi. Yangi tuple yaratiladi.
+
 ```python
 tuple1 = (1, 2)
 tuple2 = (3, 4)
 new_tuple = tuple1 + tuple2
 print(new_tuple)  # (1, 2, 3, 4)
 ```
+- Agar siz bir tupleni o'z-o'ziga birlashtirishni xohlasangiz, yana bir tuple qo'shib berishingiz kerak bo'ladi.
+```python
+tuple1 = (1, 2, 3)
+
+# tuple1 ni o'z-o'zidan ikki marta birlashtirish
+result = tuple1 + tuple1
+print(result)
+```
+
+#### TUPLENI BOSHQA MALUMOT TURLARI BILAN BIRLASHTIRISH
 
 2. Tupleni ko‘paytirish:
 ```python
