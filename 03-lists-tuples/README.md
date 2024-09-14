@@ -415,13 +415,13 @@ print(my_tuple[-1]) # 50 (oxirgi element)
 1. Tuplelarni birlashtirish:
     - Tuple'lar o'zgarmas (`immutable`) ma'lumot turi bo'lganligi uchun birlashtirish jarayonida asl tuple'lar o'zgarmaydi. Yangi tuple yaratiladi.
 
-```python
-tuple1 = (1, 2)
-tuple2 = (3, 4)
-new_tuple = tuple1 + tuple2
-print(new_tuple)  # (1, 2, 3, 4)
-```
-- Agar siz bir tupleni o'z-o'ziga birlashtirishni xohlasangiz, yana bir tuple qo'shib berishingiz kerak bo'ladi.
+    ```python
+    tuple1 = (1, 2)
+    tuple2 = (3, 4)
+    new_tuple = tuple1 + tuple2
+    print(new_tuple)  # (1, 2, 3, 4)
+    ```
+    - Agar siz bir tupleni o'z-o'ziga birlashtirishni xohlasangiz, yana bir tuple qo'shib berishingiz kerak bo'ladi.
 ```python
 tuple1 = (1, 2, 3)
 
