@@ -388,6 +388,15 @@ single_element_tuple = (1,)
 print(single_element_tuple)  # (1,)
 ```
 
+### TUPLE XUSUSIYATLARI
+- **O'zgarmasligi (Immutable):** `Tuple` yaratilgandan so'ng, uning elementlarini `o'zgartirib` yoki `o'chirib` bo'lmaydi.
+- **Tartiblanganligi:** `Tuple` ichidagi elementlar `tartiblangan` holda saqlanadi.
+- **Qayta ishlash:** `Tuple` ichidagi ma'lumotlar o'z tartibini saqlaydi va turli xil ma'lumot turlarini saqlashi mumkin (masalan, `number`, `string` va boshqalar).
+
+### TUPLENING AFZALLIKLARI
+- **O‘zgarmasligi:** Tupleni `himoyalangan` yoki `o‘zgartirilmas` ma’lumotlar saqlash uchun ishlatish mumkin.
+- **Tezligi:** Tuplelar ro‘yxatlarga qaraganda `tezroq` ishlovchi ma'lumot turi hisoblanadi.
+
 ### TUPLE E'LEMENTLARIGA MUROJAT QILISH
 
 `Tuple` elementlariga ham `list`larga o'xshab indeks orqali murojaat qilish mumkin. Indekslar `0` dan boshlanadi:
