@@ -443,6 +443,16 @@ my_tuple = ("apple", "banana", "cherry")
 print("banana" in my_tuple)  # True
 ```
 
+### TUPLENI QIYMATLARGA AJRATISH(`Unpacking`)
+- Tuplening barcha qiymatlarini o‘zgaruvchilarga ajratib olish mumkin:
+```python
+my_tuple = ("apple", "banana", "cherry")
+(fruit1, fruit2, fruit3) = my_tuple
+print(fruit1)  # 'apple'
+print(fruit2)  # 'banana'
+print(fruit3)  # 'cherry'
+```
+
 > [!NOTE]
 > Agar Tuple ga o'zgartirish talab qilinsa, yagona yo'li o'zgarmas ro'yxatni `list()` funksiyasi yordamida `List` (oddiy ro'yxat) ko'rinishiga keltirib olish, o'zgarishlarni bajarsih va qaytarib `tuple()` funktsiyasi yordamida o'zgarmas ro'yxatga o'tkazish mumkin:
 
