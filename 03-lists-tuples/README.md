@@ -408,6 +408,11 @@ print(my_tuple[2])  # 30
 print(my_tuple[-1]) # 50 (oxirgi element)
 ```
 
+### TUPLE USTIDA AMALLAR
+> [!NOTE]
+> Tuple o'zgarmas bo'lganligi sababli, uni `o'zgartirib bo'lmaydi`. Lekin uni boshqa tuplelar bilan `birlashtirish` yoki `takrorlash` mumkin.
+
+
 ### TUPLE UZUNLIGINI ANIQLASH
 
 `Tuple`dagi elementlar sonini aniqlash uchun `len()` funksiyasidan foydalaniladi:
