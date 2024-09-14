@@ -364,33 +364,33 @@ print("Toq sonlar: ", toq_sonlar)
 
 
 
-## QATORLAR(TUPLES) VA ULAR BILAN ISHLASH
+## TUPLES BILAN ISHLASH
 
 Qatorlar (`tuples`) Pythonda `o'zgarmas` ma'lumot tuzilmasi bo'lib, ularni bir marta yaratgandan keyin o'zgartirib bo'lmaydi. Ular ro'yxatlar (`lists`) ga o'xshash, lekin qatorlar bir marta yaratib olingandan keyin o'zgartirilmaydi, ya'ni ularga yangi element qo'shib bo'lmaydi, mavjud elementlarni o'chirib bo'lmaydi yoki o'zgartirib bo'lmaydi. Qatorlar ko'pincha o'zgarmas ma'lumotlar to'plamini saqlash uchun ishlatiladi.
 
-### TO'PLAM YARATISH
+### TUPLE YARATISH
 
 ```python
-# Oddiy tuplam yaratish
+# Oddiy tuple yaratish
 my_tuple = (1, 2, 3)
 print(my_tuple)  # (1, 2, 3)
 
-# list dan tuplam yaratish
+# list dan tuple yaratish
 another_tuple = tuple([4, 5, 6])
 print(another_tuple)  # (4, 5, 6)
 
-# bo'sh tuplam yaratish
+# bo'sh tuple yaratish
 empty_tuple = ()
 print(empty_tuple)  # ()
 
-# bitta elementli tuplam yaratish uchun vergul qo'yish kerak
+# bitta elementli tuple yaratish uchun vergul qo'yish kerak
 single_element_tuple = (1,)
 print(single_element_tuple)  # (1,)
 ```
 
 ### TUPLE E'LEMENTLARIGA MUROJAT QILISH
 
-`To'plam` elementlariga ham `list`larga o'xshab indeks orqali murojaat qilish mumkin. Indekslar `0` dan boshlanadi:
+`Tuple` elementlariga ham `list`larga o'xshab indeks orqali murojaat qilish mumkin. Indekslar `0` dan boshlanadi:
 
 ```python
 my_tuple = (10, 20, 30, 40, 50)
@@ -401,7 +401,7 @@ print(my_tuple[-1]) # 50 (oxirgi element)
 
 ### TUPLE UZUNLIGINI ANIQLASH
 
-Tuplamdagi elementlar sonini aniqlash uchun `len()` funksiyasidan foydalaniladi:
+`Tuple`dagi elementlar sonini aniqlash uchun `len()` funksiyasidan foydalaniladi:
 
 ```python
 my_tuple = (1, 2, 3, 4, 5)
