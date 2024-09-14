@@ -422,13 +422,13 @@ print(my_tuple[-1]) # 50 (oxirgi element)
     print(new_tuple)  # (1, 2, 3, 4)
     ```
     - Agar siz bir tupleni o'z-o'ziga birlashtirishni xohlasangiz, yana bir tuple qo'shib berishingiz kerak bo'ladi.
-```python
-tuple1 = (1, 2, 3)
+    ```python
+    tuple1 = (1, 2, 3)
 
-# tuple1 ni o'z-o'zidan ikki marta birlashtirish
-result = tuple1 + tuple1
-print(result)
-```
+    # tuple1 ni o'z-o'zidan ikki marta birlashtirish
+    result = tuple1 + tuple1
+    print(result)
+    ```
 
 #### TUPLENI BOSHQA MALUMOT TURLARI BILAN BIRLASHTIRISH
 
