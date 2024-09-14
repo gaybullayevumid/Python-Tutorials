@@ -453,6 +453,13 @@ print(fruit2)  # 'banana'
 print(fruit3)  # 'cherry'
 ```
 
+### TUPLE ICHIDA TUPLE
+- Tuple ichida yana boshqa tuplelar saqlanishi mumkin:
+```python
+nested_tuple = (1, 2, (3, 4), 5)
+print(nested_tuple[2])  # (3, 4)
+```
+
 > [!NOTE]
 > Agar Tuple ga o'zgartirish talab qilinsa, yagona yo'li o'zgarmas ro'yxatni `list()` funksiyasi yordamida `List` (oddiy ro'yxat) ko'rinishiga keltirib olish, o'zgarishlarni bajarsih va qaytarib `tuple()` funktsiyasi yordamida o'zgarmas ro'yxatga o'tkazish mumkin:
 
