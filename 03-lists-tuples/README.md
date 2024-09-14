@@ -412,6 +412,20 @@ print(my_tuple[-1]) # 50 (oxirgi element)
 > [!NOTE]
 > Tuple o'zgarmas bo'lganligi sababli, uni `o'zgartirib bo'lmaydi`. Lekin uni boshqa tuplelar bilan `birlashtirish` yoki `takrorlash` mumkin.
 
+1. Tuplelarni birlashtirish:
+```python
+tuple1 = (1, 2)
+tuple2 = (3, 4)
+new_tuple = tuple1 + tuple2
+print(new_tuple)  # (1, 2, 3, 4)
+```
+
+2. Tupleni ko‘paytirish:
+```python
+tuple1 = ("hello",)
+new_tuple = tuple1 * 3
+print(new_tuple)  # ('hello', 'hello', 'hello')
+```
 
 ### TUPLE UZUNLIGINI ANIQLASH
 
