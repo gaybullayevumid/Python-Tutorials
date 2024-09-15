@@ -549,3 +549,13 @@ print(toys)
 12. Ro'yxatni Nusxalash.
     - Quyidagi ro'yxatni yarating: `[100, 200, 300, 400, 500]`.
     - Ushbu ro'yxatdan `nusxa` ko'chiring va `yangi` ro'yxatni qaytaring.
+
+13. Tuple yaratish va qiymatlarni chiqarish.
+    ```python
+    # 1. Quyidagi tuple'ni yarating va har bir elementini ekranga chiqaring.
+    my_tuple = (10, 20, 30, 40, 50)
+    ```
+    **Natija:**
+    ```shell
+    (10, 20, 30, 40, 50)
+    ```
