@@ -559,3 +559,13 @@ print(toys)
     ```shell
     (10, 20, 30, 40, 50)
     ```
+14. Tuple elementlariga indeks orqali murojaat qilish
+    ```python
+    # 2. Quyidagi tuple'dan birinchi va oxirgi elementni ekranga chiqaring.
+    my_tuple = ('apple', 'banana', 'cherry', 'date', 'elderberry')
+    ```
+    **Natija:**
+    ```shell
+    Birinchi element: apple
+    Oxirgi element: elderberry
+    ```
