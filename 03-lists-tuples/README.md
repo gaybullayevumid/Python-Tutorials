@@ -569,3 +569,13 @@ print(toys)
     Birinchi element: apple
     Oxirgi element: elderberry
     ```
+15. Tuple’larni birlashtirish
+    ```python
+    # 3. Ikkita tuple'ni birlashtirib, yangi tuple yarating.
+    tuple1 = (1, 2, 3)
+    tuple2 = (4, 5, 6)
+    ```
+    **Natija:**
+    ```shell
+    (1, 2, 3, 4, 5, 6)
+    ```
