@@ -499,58 +499,58 @@ print(toys)
 ```
 
 ## AMALIYOT
-1. Ro'yhat yaratish va elementga murojat qilish.
+1. **Ro'yhat yaratish va elementga murojat qilish.**
     - Quyidagi elementlarga ega bo'lgan ro'yxatni yarating: `'olma'`, `'banan'`, `'gilos'`, `'xurmo'`, `'anjir'`.
     - Ro'yxatning `ikkinchi` va `to'rtinchi` elementlarini oling va ularni terminalga chiqaring.
 
-2. Ro'yxatni o'zgartirish.
+2. **Ro'yxatni o'zgartirish.**
     - `1` dan `5` gacha bo'lgan sonlar ro'yxatini yarating.
     - Ro'yxatdagi `uchinchi` elementni `10` ga almashtiring va yangilangan ro'yxatni terminalga chiqaring.
 
-3. Element qo'shish va o'chirish.
+3. **Element qo'shish va o'chirish.**
     - Bo'sh ro'yxat yarating.
     - Ro'yxatga `'dog'`, `'cat'` va `'chicken'` elementlarini qo'shing.
     - Ro'yxatdan `'cat'` ni `o'chiring` va natijani terminalga chiqaring.
 
-4. Ro'yxat uzunligini topish.
+4. **Ro'yxat uzunligini topish.**
     - Quyidagi elementlarga ega ro'yxat yarating: `'red'`, `'green'`, `'blue'`, `'yellow'`, `'purple'`.
     - Ro'yxatning `uzunligini` toping va terminalga chiqaring.
 
-5. Ro'yxatlarni birlashtirish.
+5. **Ro'yxatlarni birlashtirish.**
     - Quyidagi ikkita ro'yxatni yarating:
         - Ro'yxat1: `['a', 'b', 'c']`
         - Ro'yxat2: `['d', 'e', 'f']`
     - Ikkala ro'yxatni birlashtiring va natijani terminalga chiqaring.
 
-6. Elementning mavjudligini tekshirish.
+6. **Elementning mavjudligini tekshirish.**
     - Quyidagi ro'yxatni yarating: `['mashina', 'avtobus', 'velosiped', 'poyezd']`
     - Ro'yxatda `'avtobus'` bor-yo'qligini tekshiring va natijani terminalga chiqaring `(True/False)`.
 
-7. Ro'yxatni saralash.
+7. **Ro'yxatni saralash.**
     - Quyidagi sonlardan iborat ro'yxat yarating: `[3, 1, 4, 2, 5]`.
     - Ro'yxatni `o'sish` tartibida saralang va natijani terminalga chiqaring.
 
-8. Ro'yxatdagi elementlarni teskari tartibda Terminalga chiqarish.
+8. **Ro'yxatdagi elementlarni teskari tartibda Terminalga chiqarish.**
     - Quyidagi ro'yxatni yarating: `[10, 20, 30, 40, 50]`.
     - Ro'yxatni `teskari` tartibda terminalga chiqaring (`reverse`).
 
-9. Ro'yxatni tozalash.
+9. **Ro'yxatni tozalash.**
     - Quyidagi ro'yxatni yarating: `['kitob', 'qalam', 'daftar', 'sumka']`.
     - Ro'yxatni tozalang (`hamma elementlarni o'chiring`) va bo'sh ro'yxatni terminalga chiqaring.
 
-10. Ro'yxat elementlarini ko'paytirish.
+10. **Ro'yxat elementlarini ko'paytirish.**
     - Ro'yxat yarating: `[1, 2, 3]`.
     - Ro'yxat elementlarini `4` marta ko'paytiring va natijani terminalga chiqaring.
 
-11. Minimal va Maksimal qiymatni topish.
+11. **Minimal va Maksimal qiymatni topish.**
     - Quyidagi ro'yxatni yarating: `[25, 17, 9, 50, 33]`.
     - Ro'yxatdagi `eng kichik` va `eng katta` qiymatni toping va terminalga chiqaring.
 
-12. Ro'yxatni Nusxalash.
+12. **Ro'yxatni Nusxalash.**
     - Quyidagi ro'yxatni yarating: `[100, 200, 300, 400, 500]`.
     - Ushbu ro'yxatdan `nusxa` ko'chiring va `yangi` ro'yxatni qaytaring.
 
-13. Tuple yaratish va qiymatlarni chiqarish.
+13. **Tuple yaratish va qiymatlarni chiqarish.**
     ```python
     # 1. Quyidagi tuple'ni yarating va har bir elementini ekranga chiqaring.
     my_tuple = (10, 20, 30, 40, 50)
@@ -559,7 +559,7 @@ print(toys)
     ```shell
     (10, 20, 30, 40, 50)
     ```
-14. Tuple elementlariga indeks orqali murojaat qilish
+14. **Tuple elementlariga indeks orqali murojaat qilish.**
     ```python
     # 2. Quyidagi tuple'dan birinchi va oxirgi elementni ekranga chiqaring.
     my_tuple = ('apple', 'banana', 'cherry', 'date', 'elderberry')
@@ -569,7 +569,7 @@ print(toys)
     Birinchi element: apple
     Oxirgi element: elderberry
     ```
-15. Tuple’larni birlashtirish
+15. **Tuple’larni birlashtirish.**
     ```python
     # 3. Ikkita tuple'ni birlashtirib, yangi tuple yarating.
     tuple1 = (1, 2, 3)
