@@ -589,3 +589,13 @@ print(toys)
     ```shell
     4
     ```
+
+17. **Tuple ichidagi elementlarning qiymatini sanash.**
+    ```python
+    # 5. Tuple ichida necha marta 'apple' so‘zi mavjudligini aniqlang.
+    fruits = ('apple', 'banana', 'cherry', 'apple', 'apple', 'banana')
+    ```
+    **Natija:**
+    ```shell
+    3
+    ```
