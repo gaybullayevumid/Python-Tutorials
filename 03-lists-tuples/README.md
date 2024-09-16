@@ -579,3 +579,13 @@ print(toys)
     ```shell
     (1, 2, 3, 4, 5, 6)
     ```
+
+16. **Tuple uzunligini aniqlash.**
+    ```python
+    # 4. Quyidagi tuple'ning uzunligini aniqlang.
+    my_tuple = ('cat', 'dog', 'rabbit', 'parrot')
+    ```
+    **Natija:**
+    ```shell
+    4
+    ```
