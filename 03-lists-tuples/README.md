@@ -599,3 +599,12 @@ print(toys)
     ```shell
     3
     ```
+18. **Tuple ichida qiymat mavjudligini tekshirish.**
+    ```python
+    # 6. Tuple ichida 'banana' bor-yo‘qligini tekshiring.
+    fruits = ('apple', 'banana', 'cherry')
+    ```
+    **Natija:**
+    ```shell
+    True
+    ```
