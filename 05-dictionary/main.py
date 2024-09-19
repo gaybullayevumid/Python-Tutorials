@@ -2,99 +2,65 @@
 #     'key':'value'
 # }
 
-
 # my_dict = {}
-# print(my_dict)
 
 # person = {
-    # first_name': 'Behruz',
-    # 'last_name': 'Sunnatullayev',
-    # 'age': 15,
-    # 'date_of_birth': 2009'
-# }
-
-# person['email'] = 'behruzsunnatullayev@gmail.com'
-# person['age'] = 16
-# del person['date_of_birth']
-# age = person.pop('age')
-# keys = person.keys()
-# values = person.values()
-# items = person.items()
-# person.clear()
-# new_person = person.copy()
-# age = person.get('name')
-# coutry = person.setdefault('country', 'Uzbekistan')
-
-
-# dadam = {
-#     # 'first_name': 'Dilmurod',
-#     # 'last_name': 'Xasanov',
-#     # 'age': 45,
-#     # 'date_of_birth': 1979,
-# }
-# print(dadam)
-
-# onam = {
-#     'first_name': 'Nilufar',
-#     'last_name': 'Akbutayeva',
-#     'age': 41,
-#     'date_of_birth': 1983,
-# }
-# print(onam)
-
-# opam = {
-#     'first_name': 'Bahora',
-#     'last_name': 'Sunnatullayeva',
-#     'age': 17,
-#     'date_of_birth': 2007,
-# }
-# print(opam)
-
-# taomlar = {
-#     'dadamning sevimli taomi': 'osh',
-#     'onamning sevimli taomi': "sho'rva",
-#     'opaming sevimli taomi': 'somsa',
-#     'mening sevimli taomi': 'shashlik',
-#     'akaming sevimli taomi': 'manti',
-# }
-# print(taomlar)
-
-# student = {
 #     'name': 'Alice',
-#     'age': 21,
-#     'major': 'Mathematics'
-
-#     # student = {'name': 'Alice', 'age': 22, 'major': 'Mathematics', 'grade': 'A'}
+#     'age': 30,
+#     'city': 'New York',
 # }
-# student['age'] = 22
-# grade = student.setdefault('grade', 'A')
-# print(student)
+# print(person)
 
-# grades = {
-#     'Math': 90,
-#     'Science': 85,
-#     'English': 92,
-#     'History': 88
+# person['city'] = 'alice@example.com'
+# print(person)
+# {'name': 'Alice', 'age': 25, 'city': 'New York', 'email': 'alice@example.com'}
 
-#     # Yig'indi: 355
+# person['age'] = 26
+# print(person)
+# {'name': 'Alice', 'age': 26, 'city': 'New York', 'email': 'alice@example.com'}
+
+# del person['name']
+# print(person)
+# {'name': 'Alice', 'age': 26, 'city': 'New York'}
+
+# age = person.pop('age')
+# print(age)
+# print(person)  # {'name': 'Alice', 'city': 'New York'}person
+
+
+
+# keys = my_dict.keys()
+# print(keys)  # dict_keys(['name', 'city'])
+
+# values = my_dict.values()
+# print(values)  # dict_values(['Alice', 'New York'])
+
+# items = my_dict.items()
+# print(items)  # dict_items([('name', 'Alice'), ('city', 'New York')])
+
+# my_dict.clear()
+# print(my_dict)  # {}
+
+# new_dict = my_dict.copy()
+# print(new_dict)
+# print(my_dict)
+
+# my_dict = {
+#     # 'key':'value'
+#     'name': 'Alice',
+#     'age': 30,
+#     'city': 'New York',
 # }
-# values = grades.values()
-# sum_grades = sum(values)
-# print(f"Ro`yxatdning jami yig`indisi: {sum_grades}")
 
-# scores = {
-#     'player1': 35,
-#     'player2': 42,
-#     'player3': 99,
-#     'player4': 50
-
-#     # Eng kichik qiymat: 28
-#     # Eng katta qiymat: 50
+# my_dict2 = {
+    
 # }
-# # keys = scores.keys()
-# values = scores.values()
 
-# max = max(values)
-# min = min(values)
-# print(max)
-# print(min)
+# name = my_dict.get('city', 'Not Found')
+# name1 = my_dict.get('age', 'Not Found')
+# print(name)  # 'Alice'
+# print(name1)  # 'Alice'
+
+# country = my_dict.setdefault('country', 'USA')
+# print(country)  # 'USA'
+# print(my_dict)  # {'name': 'Alice', 'city': 'New York', 'country': 'USA'}
