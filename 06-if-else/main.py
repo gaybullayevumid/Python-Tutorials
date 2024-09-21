@@ -197,4 +197,3 @@
 #     print("Tizimga kirdingiz!")
 # else:
 #     print("Parol yoki username xato")
-
