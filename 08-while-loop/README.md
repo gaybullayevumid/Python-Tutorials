@@ -69,13 +69,13 @@ Yuqorida misolda, **loop** sonlar ro'yxatidagi **manfiy** va **0** qiymatlarini 
 - **Shartni tekshirish:** Har safar shartni diqqat bilan tekshirish kerak, chunki noto'g'ri shart **loop**ning noto'g'ri ishlashiga olib kelishi mumkin.
 
 ## AMALIYOT
-- 1 dan 10 gacha bo'lgan sonlarni terminalga chiqarish:
+1. 1 dan 10 gacha bo'lgan sonlarni terminalga chiqarish:
     - `1` dan `10` gacha bo'lgan sonlarni `while loop` yordamida terminalga chiqaradigan dastur yozing.
-- Foydalanuvchi kiritgan sonning raqamlarini yig'indisini hisoblash:
+2. Foydalanuvchi kiritgan sonning raqamlarini yig'indisini hisoblash:
     - Foydalanuvchidan bir son kiritishini so'rang va ushbu sonning raqamlarini yig'indisini hisoblaydigan dastur yozing. Masalan, foydalanuvchi `123` sonini kiritgan bo'lsa, natija `6` bo'lishi kerak (`1 + 2 + 3`).
-- Foydalanuvchi kiritgan ma'lumot bilan ishlash:
+3. Foydalanuvchi kiritgan ma'lumot bilan ishlash:
     - Foydalanuvchi `exit` so'zini kiritmaguncha, uning kiritgan ma'lumotlarini qabul qilib terminalga chiqaring.
-- Juft sonlarni hisoblash:
+4. Juft sonlarni hisoblash:
     - Foydalanuvchidan son kiriitishini so'rang va `1` dan ushbu songacha bo'lgan barcha juft sonlarni ekranga chiqaring.
-- Minimal sonni topish:
+5. Minimal sonni topish:
     - Foydalanuvchidan bir nechta sonlar kiritishni so'rang va foydalanuvchi `0` ni kiritganda kiritilgan sonlar ichidan eng kichik sonni ekranga chiqaring.
