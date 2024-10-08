@@ -18,7 +18,7 @@ Dastur ishlashi davomida turli xatoliklar yuz berishi mumkin, masalan, noto'g'ri
     ```
 
 1. `try` va `except`
-`try` bloki ichida xatolik yuz berishi mumkin bo'lgan kod yoziladi. Agar xatolik yuz bersa, `except` bloki ishga tushadi va xatolikni boshqaradi.
+- `try` bloki ichida xatolik yuz berishi mumkin bo'lgan kod yoziladi. Agar xatolik yuz bersa, `except` bloki ishga tushadi va xatolikni boshqaradi.
     ```python
     try:
         son = int(input("Biror son kiriting: "))
@@ -33,7 +33,7 @@ Dastur ishlashi davomida turli xatoliklar yuz berishi mumkin, masalan, noto'g'ri
             - Agar foydalanuvchi `0` kiritsa, `ZeroDivisionError` xatosi yuz beradi va u `except ZeroDivisionError` tomonidan boshqariladi.
             - Agar foydalanuvchi son o'rniga harf kiritsa, `ValueError` xatosi yuz beradi va u `except ValueError` tomonidan boshqariladi.
 2. `else`
-Agar `try` blokida xatolik yuz bermasa, `else` bloki ishga tushadi. Bu blokda xatoliklar bo'lmasa bajarilishi kerak bo'lgan kodlar yoziladi.
+- Agar `try` blokida xatolik yuz bermasa, `else` bloki ishga tushadi. Bu blokda xatoliklar bo'lmasa bajarilishi kerak bo'lgan kodlar yoziladi.
     ```python
     try:
         son = int(input("Biror son kiriting: "))
@@ -47,7 +47,7 @@ Agar `try` blokida xatolik yuz bermasa, `else` bloki ishga tushadi. Bu blokda xa
     ```
     Yuqoridagi misolda, agar foydalanuvchi to'g'ri son kiritsa va `0` bo'lmasa, `else` qismi ichidagi `natija` chop etiladi.
 3. `finally`
-`finally` bloki har qanday holatda ham, xatolik yuz bergan yoki bermagan bo'lsa ham, bajariladi. Bu blok, masalan, resurslarni tozalash yoki fayllarni yopish uchun ishlatilishi mumkin.
+- `finally` bloki har qanday holatda ham, xatolik yuz bergan yoki bermagan bo'lsa ham, bajariladi. Bu blok, masalan, resurslarni tozalash yoki fayllarni yopish uchun ishlatilishi mumkin.
     ```python
     try:
         son = int(input("Biror son kiriting: "))
