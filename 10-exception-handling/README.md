@@ -62,7 +62,8 @@ finally:
 ```
 Yuqoridagi misolda, dastur yakunida har doim `finally` bloki ichidagi `Dastur yakunlandi.` xabari chop etiladi.
 
-4. Ba'zi hollarda, sodir bo'lgan xatoni dasturiy tilda yozib chiqish kerak bo'lishi mumkin. Bunda `as` kalit so'zi orqali xato ob'ektiga nom berish mumkin:
+4. Xatoni nom bilan chiqarish:
+    - Ba'zi hollarda, sodir bo'lgan xatoni dasturiy tilda yozib chiqish kerak bo'lishi mumkin. Bunda `as` kalit so'zi orqali xato ob'ektiga nom berish mumkin:
 
 ```python
 try:
@@ -73,6 +74,8 @@ except FileNotFoundError as e:
 **Tushuntirish:**
 - Agar `myfile.txt` nomli fayl mavjud bo'lmasa, `FileNotFoundError` xatosi paydo bo'ladi.
 - `as e` orqali bu xatoni `e` nomli o'zgaruvchida saqlab, uni ekranga chiqarish mumkin.
+
+5. 
 
 ## AMALIYOT
 1. Nolga bo'lishni tekshirish
