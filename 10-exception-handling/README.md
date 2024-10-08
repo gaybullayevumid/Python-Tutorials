@@ -17,6 +17,17 @@ Dastur ishlashi davomida turli xatoliklar yuz berishi mumkin, masalan, noto'g'ri
         # Xato sodir bo'lganda bajariladigan kod
     ```
 
+    ```python
+    try:
+        son = int(input("Biror son kiriting: "))
+        natija = 10 / son
+        print(f"Natija: {natija}")
+    except ZeroDivisionError:
+        print("Xatolik: Nolga bo'lish mumkin emas!")
+    except ValueError:
+        print("Xatolik: Iltimos, butun son kiriting!")
+    ```
+
 1. `try` va `except`
 - `try` bloki ichida xatolik yuz berishi mumkin bo'lgan kod yoziladi. Agar xatolik yuz bersa, `except` bloki ishga tushadi va xatolikni boshqaradi.
     ```python
