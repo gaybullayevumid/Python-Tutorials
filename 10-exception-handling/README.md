@@ -11,10 +11,10 @@ Dastur ishlashi davomida turli xatoliklar yuz berishi mumkin, masalan, noto'g'ri
 ### EXCEPTION HANDLING SINTAKSISI
 
 ```python
-    try:
-        # Potensial xato yuzaga kelishi mumkin bo'lgan kod
-    except XatoNomi:
-        # Xato sodir bo'lganda bajariladigan kod
+try:
+    # Potensial xato yuzaga kelishi mumkin bo'lgan kod
+except XatoNomi:
+    # Xato sodir bo'lganda bajariladigan kod
 ```
 1. `try` va `except`
 - `try` bloki ichida xatolik yuz berishi mumkin bo'lgan kod yoziladi. Agar xatolik yuz bersa, `except` bloki ishga tushadi va xatolikni boshqaradi.
