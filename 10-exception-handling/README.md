@@ -63,9 +63,9 @@ except XatoNomi:
     Yuqoridagi misolda, dastur yakunida har doim `finally` bloki ichidagi `Dastur yakunlandi.` xabari chop etiladi.
 
 4. Xatoni nom bilan chiqarish:
-    - Ba'zi hollarda, sodir bo'lgan xatoni dasturiy tilda yozib chiqish kerak bo'lishi mumkin. Bunda `as` kalit so'zi orqali xato ob'ektiga nom berish mumkin:
+- Ba'zi hollarda, sodir bo'lgan xatoni dasturiy tilda yozib chiqish kerak bo'lishi mumkin. Bunda `as` kalit so'zi orqali xato ob'ektiga nom berish mumkin:
 
-    ```python
+    ```py
     try:
         file = open('myfile.txt')
     except FileNotFoundError as e:
