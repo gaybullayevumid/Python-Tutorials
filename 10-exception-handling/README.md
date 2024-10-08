@@ -9,6 +9,7 @@
 Dastur ishlashi davomida turli xatoliklar yuz berishi mumkin, masalan, noto'g'ri ma'lumot kiritish, bo'linishda nolga bo'lishga urinish yoki fayl mavjud bo'lmaganda uni o'qishga urinish. Bu kabi holatlarda dastur to'xtab qolishi mumkin, lekin Exception Handling yordamida biz bu xatolarni boshqarishimiz va dasturimizning barqaror ishlashini ta'minlashimiz mumkin.
 
 ### EXCEPTION HANDLING SINTAKSISI
+
     ```python
     try:
         # Potensial xato yuzaga kelishi mumkin bo'lgan kod
