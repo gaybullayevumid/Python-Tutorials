@@ -25,10 +25,29 @@ f = open("file.txt", "a")
 
 # Fayl mavjud emasligini tekshirib, yaratish
 f = open("file.txt", "x")
-
 ```
 
+# Faylni o'qish
 
+Fayl ichidagi ma'lumotlarni o'qish uchun bir necha usullar mavjud:
+- `read()` – Faylni to'liq o'qiydi.
+- `readline()` – Fayldan bir qatorni o'qiydi.
+- `readlines()` – Fayldagi barcha qatorlarni ro'yxat sifatida o'qiydi.
 
+```python
+f = open("file.txt", "r")
 
- 
+# Barcha ma'lumotni o'qish
+content = f.read()
+print(content)
+
+# Bir qatorni o'qish
+line = f.readline()
+print(line)
+
+# Barcha qatorlarni ro'yxatga o'qish
+lines = f.readlines()
+print(lines)
+
+f.close()
+```
