@@ -57,3 +57,36 @@ f.close()
 Faylga yozish uchun `write()` yoki `writelines()` metodlaridan foydalaniladi:
 - `write()` – Faylga matn yozadi.
 - `writelines()` – Ro'yxatdagi barcha qatorlarni faylga yozadi.
+
+```python
+# Faylga ma'lumot yozish
+f = open("file.txt", "w")
+f.write("Hello, Python!\n")
+f.write("This is a second line.\n")
+f.close()
+
+# Ro'yxatni faylga yozish
+lines = ["First line\n", "Second line\n", "Third line\n"]
+f = open("file.txt", "w")
+f.writelines(lines)
+f.close()
+```
+
+# Faylni yopish
+
+Fayl bilan ish tugagandan so'ng, uni yopish kerak. Faylni yopish uchun `close()` metodidan foydalaniladi.
+```python
+f = open("file.txt", "r")
+# Fayldan o'qish jarayoni
+f.close()  # Faylni yopish
+```
+
+[!NOTE]
+> Yana bir usul – faylni `with` bloki yordamida ochish, bunda fayl avtomatik ravishda yopiladi:
+```python
+with open("file.txt", "r") as f:
+    content = f.read()
+    print(content)
+# Bu usulda faylni yopish shart emas, fayl avtomatik ravishda yopiladi.
+```
+
