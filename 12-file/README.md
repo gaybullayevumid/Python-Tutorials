@@ -1,3 +1,34 @@
 # PYTHON DASTURLASH ASOSLARI
 
-**Pythonda fayllar bilan ishlash juda muhim va keng qo'llaniladigan funksiyalardan biri hisoblanadi.**
+**Pythonda fayllar bilan ishlash dasturlashning muhim qismidir. Bu orqali siz ma'lumotlarni saqlash, o'qish, tahrirlash va boshqarish imkoniyatiga ega bo'lasiz.**
+
+# Faylni ochish
+
+Faylni ochish uchun `open()` funksiyasidan foydalaniladi. Bu funksiya fayl nomini va rejimini qabul qiladi. `open()` funksiyasida ikkinchi parametr sifatida fayl rejimini ko'rsatishingiz mumkin:
+
+### Fayl rejimlari
+
+- `r` – Faylni o'qish uchun ochish. Fayl mavjud bo'lishi kerak.
+- `w` – Faylga yozish uchun ochish. Agar fayl mavjud bo'lmasa, yangi fayl yaratadi. Mavjud fayl bo'lsa, ma'lumotlarni o'chirib yuboradi.
+- `a` – Faylga qo'shish uchun ochish. Mavjud faylga yangi ma'lumot qo'shadi, agar fayl mavjud bo'lmasa, yangi fayl yaratadi.
+- `x` – Faylni faqat yangi fayl yaratish uchun ochadi. Agar fayl allaqachon mavjud bo'lsa, xato chiqaradi.
+
+```python
+# Faylni o'qish uchun ochish
+f = open("file.txt", "r")
+
+# Faylga yozish uchun ochish
+f = open("file.txt", "w")
+
+# Faylga qo'shish uchun ochish
+f = open("file.txt", "a")
+
+# Fayl mavjud emasligini tekshirib, yaratish
+f = open("file.txt", "x")
+
+```
+
+
+
+
+ 
