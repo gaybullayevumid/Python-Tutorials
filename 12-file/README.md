@@ -81,7 +81,7 @@ f = open("file.txt", "r")
 f.close()  # Faylni yopish
 ```
 
-[!NOTE]
+> [!NOTE]
 > Yana bir usul – faylni `with` bloki yordamida ochish, bunda fayl avtomatik ravishda yopiladi:
 ```python
 with open("file.txt", "r") as f:
