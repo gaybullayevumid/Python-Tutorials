@@ -51,3 +51,9 @@ print(lines)
 
 f.close()
 ```
+
+# Faylga yozish
+
+Faylga yozish uchun `write()` yoki `writelines()` metodlaridan foydalaniladi:
+- `write()` – Faylga matn yozadi.
+- `writelines()` – Ro'yxatdagi barcha qatorlarni faylga yozadi.
