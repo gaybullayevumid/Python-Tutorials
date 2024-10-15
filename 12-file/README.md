@@ -105,3 +105,25 @@ with open("image.png", "rb") as img:
 with open("output.bin", "wb") as bin_file:
     bin_file.write(b"Binary data")
 ```
+
+# Fayllar bilan bog'liq ba'zi funksiyalar
+
+- `os.remove()` – **Faylni o'chirish.**
+- `os.rename()` – **Fayl nomini o'zgartirish.**
+- `os.path.exists()` – **Fayl mavjudligini tekshirish.**
+
+```python
+import os
+
+# Faylni o'chirish
+os.remove("file.txt")
+
+# Fayl nomini o'zgartirish
+os.rename("old_name.txt", "new_name.txt")
+
+# Fayl mavjudligini tekshirish
+if os.path.exists("file.txt"):
+    print("File exists")
+else:
+    print("File not found")
+```
