@@ -92,8 +92,8 @@ with open("file.txt", "r") as f:
 
 # Fayl rejimlari
 
-`t` – Matn rejimi. Fayllarni matn sifatida ochadi. Bu rejim `r` va `w` bilan birga ishlatiladi. Masalan, `rt` yoki `wt`.
-`b` – Ikkilik (`binary`) rejimi. Fayllarni ikkilik rejimda ochadi. Masalan, `rb` yoki `wb`.
+- `t` – Matn rejimi. Fayllarni matn sifatida ochadi. Bu rejim `r` va `w` bilan birga ishlatiladi. Masalan, `rt` yoki `wt`.
+- `b` – Ikkilik (`binary`) rejimi. Fayllarni ikkilik rejimda ochadi. Masalan, `rb` yoki `wb`.
 
 ```python
 # Ikkilik faylni o'qish
