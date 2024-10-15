@@ -90,3 +90,18 @@ with open("file.txt", "r") as f:
 # Bu usulda faylni yopish shart emas, fayl avtomatik ravishda yopiladi.
 ```
 
+# Fayl rejimlari
+
+`t` – Matn rejimi. Fayllarni matn sifatida ochadi. Bu rejim `r` va `w` bilan birga ishlatiladi. Masalan, `rt` yoki `wt`.
+`b` – Ikkilik (`binary`) rejimi. Fayllarni ikkilik rejimda ochadi. Masalan, `rb` yoki `wb`.
+
+```python
+# Ikkilik faylni o'qish
+with open("image.png", "rb") as img:
+    data = img.read()
+    print(data)
+
+# Ikkilik faylga yozish
+with open("output.bin", "wb") as bin_file:
+    bin_file.write(b"Binary data")
+```
