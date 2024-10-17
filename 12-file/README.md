@@ -132,3 +132,5 @@ else:
 
 1. Yangi fayl yaratish va unga ma'lumot yozish:
 - `example.txt` deb nomlangan yangi fayl yarating va unga `"Python is fun!"` yozuvini kiriting.
+2. Fayldan ma'lumot o'qish
+- Yaratilgan fayldan yozilgan ma'lumotni o'qing va ekranga chiqarib bering.
