@@ -127,3 +127,8 @@ if os.path.exists("file.txt"):
 else:
     print("File not found")
 ```
+
+# AMALIYOT
+
+1. Yangi fayl yaratish va unga ma'lumot yozish:
+- `example.txt` deb nomlangan yangi fayl yarating va unga `"Python is fun!"` yozuvini kiriting.
