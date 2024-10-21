@@ -29,3 +29,7 @@ Python jamoasidan tashqaridagi ishlab chiquvchilar tomonidan yaratilgan va maxsu
 - `Pygame`: o'yinlar yaratish uchun.
 - `Scikit-learn`: statistik modellash va mashina o'rganish uchun.
 - `Matplotlib` va `Seaborn`: ma'lumotlarni vizualizatsiya qilish uchun grafik kutubxonalar.
+
+
+> [!NOTE]
+> Python dasturlash tilida third-party packages (uchinchi tomon paketlari) — bu boshqa dasturchilar tomonidan yozilgan, ammo Pythonning standart kutubxonalariga kiritilmagan paketlar yoki kutubxonalardir. Bu paketlar turli vazifalarni osonlashtirish yoki kengaytirish uchun yaratiladi va ular odatda PyPI (Python Package Index) orqali tarqatiladi.
