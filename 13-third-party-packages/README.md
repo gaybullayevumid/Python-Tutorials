@@ -21,3 +21,11 @@ Python jamoasi yoki uning yadro qismi tomonidan ishlab chiqilmagan, lekin keng q
 - `lxml`: XML va HTML ma'lumotlarini boshqarish.
 - `pandas`: ma'lumotlar tahlili va qayta ishlash uchun.
 - `numpy`: katta hajmdagi ma'lumotlar va raqamli hisob-kitoblar uchun.
+
+3. **Uchinchi tomon kutubxonalari:**
+Python jamoasidan tashqaridagi ishlab chiquvchilar tomonidan yaratilgan va maxsus vazifalarni hal qilish uchun mo'ljallangan kutubxonalar. Ularni `pip` orqali o'rnatish mumkin va ular har xil sohalarda qo'llaniladi. Uchinchi tomon kutubxonalari ko'pincha maxsus loyihalar uchun yaratiladi:
+- `TensorFlow`: machine learning va sun'iy intellekt modellari yaratish uchun.
+- `Flask` va `Django`: veb-dasturlash uchun.
+- `Pygame`: o'yinlar yaratish uchun.
+- `Scikit-learn`: statistik modellash va mashina o'rganish uchun.
+- `Matplotlib` va `Seaborn`: ma'lumotlarni vizualizatsiya qilish uchun grafik kutubxonalar.
