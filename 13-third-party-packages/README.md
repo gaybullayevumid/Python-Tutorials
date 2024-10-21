@@ -15,7 +15,7 @@ Python o'zi bilan birga keladigan va alohida o'rnatishni talab qilmaydigan kutub
 - `sys`: tizim bilan bog'liq ma'lumotlar va parametrlarni boshqarish.
 
 2. **Ikkinchi tomon kutubxonalari:**
-Python jamoasi yoki uning yadro qismi tomonidan ishlab chiqilmagan, lekin keng qo'llaniladigan kutubxonalar. Bular odatda tashqi manbalardan (masalan, PyPI orqali) o'rnatiladi, ammo ular keng ommalashgan va ishonchli hisoblanadi. Bu kutubxonalar ko'pincha loyiha davomida qo'shimcha imkoniyatlarni taqdim etadi:
+Python jamoasi yoki uning yadro qismi tomonidan ishlab chiqilmagan, lekin keng qo'llaniladigan kutubxonalar. Bular odatda tashqi manbalardan (masalan, `PyPI` orqali) o'rnatiladi, ammo ular keng ommalashgan va ishonchli hisoblanadi. Bu kutubxonalar ko'pincha loyiha davomida qo'shimcha imkoniyatlarni taqdim etadi:
 - `requests`: HTTP so'rovlarini jo'natish va qabul qilish.
 - `beautifulsoup4`: HTML va XML dan ma'lumotlarni tahlil qilish va olish.
 - `lxml`: XML va HTML ma'lumotlarini boshqarish.
