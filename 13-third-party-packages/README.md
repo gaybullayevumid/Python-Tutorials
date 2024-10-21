@@ -32,4 +32,4 @@ Python jamoasidan tashqaridagi ishlab chiquvchilar tomonidan yaratilgan va maxsu
 
 
 > [!NOTE]
-> Python dasturlash tilida third-party packages (uchinchi tomon paketlari) — bu boshqa dasturchilar tomonidan yozilgan, ammo Pythonning standart kutubxonalariga kiritilmagan paketlar yoki kutubxonalardir. Bu paketlar turli vazifalarni osonlashtirish yoki kengaytirish uchun yaratiladi va ular odatda PyPI (Python Package Index) orqali tarqatiladi.
+> Python dasturlash tilida `third-party packages` (**uchinchi tomon paketlari**) — bu boshqa dasturchilar tomonidan yozilgan, ammo Pythonning standart kutubxonalariga kiritilmagan paketlar yoki kutubxonalardir. Bu paketlar turli vazifalarni osonlashtirish yoki kengaytirish uchun yaratiladi va ular odatda `pip` (**Python Package Installer**) orqali tarqatiladi.
