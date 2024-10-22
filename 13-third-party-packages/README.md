@@ -84,3 +84,30 @@ squares = arr ** 2
 print("Asl massiv:", arr)
 print("Kvadratlar:", squares)
 ```
+
+3. `matplotlib` **Paketi**
+
+```shell
+pip install matplotlib
+```
+
+`matplotlib` grafik chizish va ma'lumotlarni vizual ko'rinishda ko'rsatish uchun ishlatiladi.
+
+```python
+import matplotlib.pyplot as plt
+
+# Ma'lumotlar
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+# Grafikni chizish
+plt.plot(x, y, marker='o')
+
+# Grafik nomlari
+plt.title('Oddiy Grafik')
+plt.xlabel('X o\'qi')
+plt.ylabel('Y o\'qi')
+
+# Grafikni ko'rsatish
+plt.show()
+```
