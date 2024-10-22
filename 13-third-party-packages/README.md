@@ -111,3 +111,7 @@ plt.ylabel('Y o\'qi')
 # Grafikni ko'rsatish
 plt.show()
 ```
+
+# PyPI orqali paket qidirish va o'rnatish
+
+`PyPI` web sayti (**https://pypi.org/**) orqali minglab paketlarni qidirish va topish mumkin. Misol uchun, biror matematik kutubxonani topish uchun `math` so'zini qidirish kifoya.
