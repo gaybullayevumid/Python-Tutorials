@@ -169,7 +169,51 @@ for link in links:
     print(link.get('href'))
 ```
 
+6. `flask` **Paketi**
 
+```shell
+pip install Flask
+```
+
+`flask` bu web ilovalarini yaratish uchun juda yengil va oson ishlatiladigan `web-freymvork`. Ushbu freymvork yordamida `web-serverlar`ni tez va oson yo'lga qo'yish mumkin.
+
+```python
+from flask import Flask
+
+# Flask ilovasini yaratish
+app = Flask(__name__)
+
+# Bosh sahifa uchun view funksiyasi
+@app.route('/')
+def home():
+    return "Salom, Flask!"
+
+# Ilovani ishga tushirish
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+7. `pytest` **Paketi**
+
+```shell
+pip install pytest
+```
+
+`pytest` bu Python kodlarini testlash uchun ishlatiladigan kuchli va moslashuvchan paketdir. U testlarni yozishni va sinovdan o'tkazishni osonlashtiradi.
+
+```python
+# test_mening_funksiyam.py faylida
+def ikki_barobar(qiymat):
+    return qiymat * 2
+
+def test_ikki_barobar():
+    assert ikki_barobar(3) == 6
+    assert ikki_barobar(0) == 0
+    assert ikki_barobar(-2) == -4
+
+# Testlarni ishga tushirish uchun terminalda:
+# pytest
+```
 
 # PyPI orqali paket qidirish va o'rnatish
 
@@ -191,3 +235,4 @@ pip install --upgrade package_name
 ```shell
 pip uninstall package_name
 ```
+
