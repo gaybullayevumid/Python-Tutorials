@@ -115,3 +115,20 @@ plt.show()
 # PyPI orqali paket qidirish va o'rnatish
 
 `PyPI` web sayti (**https://pypi.org/**) orqali minglab paketlarni qidirish va topish mumkin. Misol uchun, biror matematik kutubxonani topish uchun `math` so'zini qidirish kifoya.
+
+## Paketlarni boshqarish
+
+> [!NOTE]
+> Biror paketni o'rnatganingizdan so'ng, `pip` yordamida uni `yangilash` yoki `o'chirish` mumkin:
+
+1. **Yangilash:**
+
+```shell
+pip install --upgrade package_name
+```
+
+2. **O'chirish:**
+
+```shell
+pip uninstall package_name
+```
