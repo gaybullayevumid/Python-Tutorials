@@ -236,3 +236,9 @@ pip install --upgrade package_name
 pip uninstall package_name
 ```
 
+# Ko'p ishlatiladigan boshqa third-party paketlar:
+
+- **scikit-learn:** Ma'lumotlarni tahlil qilish va mashinani o'qitish (`machine learning`) algoritmlari uchun ishlatiladi.
+- **opencv-python:** Rasm va video ma'lumotlarini qayta ishlash uchun ishlatiladigan kutubxona.
+- **sqlalchemy:** Ma'lumotlar bazalari bilan ishlashni osonlashtiradigan `ORM` kutubxonasi.
+- **celery:** Katta hajmdagi ishlarni `asinxron` ravishda bajarish uchun freymvork.
