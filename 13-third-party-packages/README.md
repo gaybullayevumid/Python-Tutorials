@@ -63,3 +63,24 @@ if response.status_code == 200:
 else:
     print('So\'rov muvaffaqiyatsiz bo\'ldi.')
 ```
+
+2. `numpy` **Paketi**
+
+```shell
+pip install numpy
+```
+
+`numpy` paketi katta o'lchamdagi massivlar bilan ishlash uchun mo'ljallangan bo'lib, matematik operatsiyalarni oson va samarali bajaradi.
+
+```Python
+import numpy as np
+
+# 1 dan 10 gacha bo'lgan sonlar bilan massiv yaratish
+arr = np.arange(1, 11)
+
+# Massivdagi barcha elementlarning kvadratini hisoblash
+squares = arr ** 2
+
+print("Asl massiv:", arr)
+print("Kvadratlar:", squares)
+```
