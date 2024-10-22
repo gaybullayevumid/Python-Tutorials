@@ -41,3 +41,25 @@ Python jamoasidan tashqaridagi ishlab chiquvchilar tomonidan yaratilgan va maxsu
 ```shell
 pip install requests
 ```
+
+# Third-Party Packages bilan ishlash
+
+Third-party paketlarni o'rnatib bo'lgandan keyin, ularni Python kodida foydalanish uchun `import` qilamiz.
+
+1. `requests` **Paketi**
+
+`requests` paketi `HTTP` so'rovlar bilan ishlash uchun mo'ljallangan. Bu paket yordamida web sahifalardan ma'lumot olishni osonlashtirish mumkin.
+
+```Python
+import requests
+
+# Biror web sahifaga so'rov jo'natish
+response = requests.get('https://jsonplaceholder.typicode.com/posts')
+
+# Javob ma'lumotlarini olish
+if response.status_code == 200:
+    data = response.json()  # Ma'lumotni JSON formatida olish
+    print(data[0])  # Birinchi postni chop etish
+else:
+    print('So\'rov muvaffaqiyatsiz bo\'ldi.')
+```
