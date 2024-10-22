@@ -242,3 +242,16 @@ pip uninstall package_name
 - **opencv-python:** Rasm va video ma'lumotlarini qayta ishlash uchun ishlatiladigan kutubxona.
 - **sqlalchemy:** Ma'lumotlar bazalari bilan ishlashni osonlashtiradigan `ORM` kutubxonasi.
 - **celery:** Katta hajmdagi ishlarni `asinxron` ravishda bajarish uchun freymvork.
+
+
+# Paketlar bilan ishlashdagi ba'zi maslahatlar:
+
+- `requirements.txt` **fayli:** Loyihangizdagi barcha paketlarni boshqarish uchun `pip freeze > requirements.txt` buyrug'i bilan paketlar ro'yxatini faylga yozib qo'yish mumkin.
+- **Virtual environment:** Virtual muhit yordamida loyihangizdagi paketlarni izolyatsiya qilish yaxshi amaliyotdir. `venv` orqali virtual muhit yaratish mumkin:
+
+```shell
+python -m venv env
+source env/bin/activate  # Linux yoki MacOS
+env\Scripts\activate     # Windows
+```
+
