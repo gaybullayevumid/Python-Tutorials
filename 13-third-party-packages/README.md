@@ -112,6 +112,65 @@ plt.ylabel('Y o\'qi')
 plt.show()
 ```
 
+4. `pandas` **Paketi**
+
+```shell
+pip install pandas
+```
+
+`pandas` paketi ma'lumotlarni tahlil qilish va ularga ishlov berishda juda foydali. U jadval ko'rinishidagi ma'lumotlar bilan ishlashni osonlashtiradi (masalan, `CSV` yoki `Excel` fayllari).
+
+```python
+import pandas as pd
+
+# Jadval yaratish
+data = {
+    'Ism': ['Umid', 'Ali', 'Sarvar'],
+    'Yosh': [23, 35, 29],
+    'Kasb': ['Dasturchi', 'Muallim', 'Menejer']
+}
+
+df = pd.DataFrame(data)
+
+# Jadvalni ko'rish
+print(df)
+
+# Faqat Ism ustunini chiqarish
+print(df['Ism'])
+
+# Yosh bo'yicha filtrlash
+print(df[df['Yosh'] > 25])
+```
+
+5. `beautifulsoup4` **Paketi**
+
+```python
+pip install beautifulsoup4
+```
+
+`beautifulsoup4` paketi web sahifalardagi `HTML` kodlardan ma'lumotlarni ajratib olish uchun ishlatiladi. `Web scraping` deb ataladigan bu jarayonni osonlashtirish uchun foydalaniladi.
+
+```python
+import requests
+from bs4 import BeautifulSoup
+
+# Web sahifa so'rovi
+url = "https://www.example.com"
+response = requests.get(url)
+
+# Sahifani pars qilish
+soup = BeautifulSoup(response.text, 'html.parser')
+
+# Sahifadagi barcha <a> teglarini topish
+links = soup.find_all('a')
+
+# Har bir linkni chop etish
+for link in links:
+    print(link.get('href'))
+```
+
+
+
 # PyPI orqali paket qidirish va o'rnatish
 
 `PyPI` web sayti (**https://pypi.org/**) orqali minglab paketlarni qidirish va topish mumkin. Misol uchun, biror matematik kutubxonani topish uchun `math` so'zini qidirish kifoya.
